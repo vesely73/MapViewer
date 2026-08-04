@@ -1,0 +1,24 @@
+<p-dialog i18n-header header="Add map service" [(visible)]="visible" [modal]="true" [style]="{width:'500px',height:'500px'}" (onHide)="hide()">
+  <div class="flex flex-column gap-2">
+      <div class="flex flex-column">
+        <label for="treeSelectServices" i18n>Pre-built map services</label>
+        <p-treeSelect id="treeSelectservices" [(ngModel)]="selectedService" [options]="serviceTreeNodes"
+                              (onNodeSelect)="onServiceSelected($event)" scrollHeight="250px" appendTo="body"></p-treeSelect>
+      </div>
+    <div class="flex flex-column">
+        <label for="inputName" i18n>Name</label>
+        <input id="inputName" type="text" pInputText [(ngModel)]="serviceName">
+    </div>
+    <div class="flex flex-column">
+      <label for="dropdownType" i18n>Service type</label>
+      <p-select id="dropdownType" [options]="serviceTypes" [(ngModel)]="serviceType" optionLabel="name" optionValue="id" appendTo="body"/>
+    </div>
+    <div class="flex flex-column">
+        <label for="inputURL" i18n>URL address</label>
+        <input id="inputURL" type="text" pInputText [(ngModel)]="serviceURL">
+    </div>
+  </div>
+  <ng-template pTemplate="footer">
+    <p-button icon="pi pi-check" (click)="onOKClicked()" label="OK" styleClass="p-button-text"></p-button>
+  </ng-template>
+</p-dialog>

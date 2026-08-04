@@ -1,0 +1,22 @@
+<div style="position: relative">
+    <p-tree [value]="nodes" selectionMode="checkbox" [style]="{background:'hsl(0,0%,95%)', 'margin-top':'10px'}"
+          [(selection)]="selectedNodes" (onNodeSelect)="onNodeSelected($event)" (onNodeUnselect)="onNodeUnselected($event)">
+        <ng-template pTemplate="wms" let-node>{{node.label}}</ng-template>
+        <ng-template pTemplate="wmts" let-node>{{node.label}}</ng-template>
+        <ng-template pTemplate="wfs" let-node>
+        <span style="white-space: nowrap">
+            {{node.label}}&nbsp;&nbsp;
+            <p-button icon="pi pi-pencil" [style]="smallButton"
+                      (click)="layerPropertyButtonClick($event, node.id)"></p-button>
+        </span>
+        </ng-template>
+        <ng-template pTemplate="default" let-node><b>{{node.label}}</b></ng-template>
+    </p-tree>
+    <div style="position:absolute; top:-5px; right:5px; display: flex; flex-direction: row; gap: 3px">
+        <p-button icon="pi pi-arrow-up" (click)="moveUp()" [style]="smallButton"></p-button>
+        <p-button icon="pi pi-arrow-down" (click)="moveDown()" [style]="smallButton"></p-button>
+        <p-button icon="pi pi-trash" (click)="close()" [style]="smallButton"></p-button>
+    </div>
+</div>
+
+

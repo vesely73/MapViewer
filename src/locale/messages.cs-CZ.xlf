@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1415086119381660433" datatype="html">
+        <source>Add map service</source>
+        <target>Přidat mapovou službu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/addservice/addservice.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/map/map.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7760520104020818994" datatype="html">
+        <source>Pre-built map services</source>
+        <target>Předpřipravené mapové služby</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/addservice/addservice.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <target>Název</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/addservice/addservice.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5856247773354405622" datatype="html">
+        <source>Service type</source>
+        <target>Typ služby</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/addservice/addservice.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1317255879635792724" datatype="html">
+        <source>URL address</source>
+        <target>URL adresa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/addservice/addservice.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1662266823264941187" datatype="html">
+        <source>WMS, WMTS and WFS map service viewer</source>
+        <target>Prohlížeč mapových služeb WMS, WMTS a WFS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3632712338367010480" datatype="html">
+        <source>Base layers</source>
+        <target>Podkladové vrstvy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/map/map.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4315757201218321506" datatype="html">
+        <source>Info<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>(GetFeatureInfo)</source>
+        <target>Info<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>(GetFeatureInfo)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/map/map.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8391234329685614559" datatype="html">
+        <source>Zoom to current position</source>
+        <target>Přiblížit na aktuální pozici</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/map/map.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5749594639774072620" datatype="html">
+        <source>Fill color:</source>
+        <target>Barva výplně:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/wfslayerproperties/wfslayerproperties.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1552839935274077512" datatype="html">
+        <source>Alpha: <x id="INTERPOLATION" equiv-text="{{alpha}}"/></source>
+        <target>Průhlednost: <x id="INTERPOLATION" equiv-text="{{alpha}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/wfslayerproperties/wfslayerproperties.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

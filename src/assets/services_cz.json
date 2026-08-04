@@ -1,0 +1,85 @@
+{
+  "data":
+  [
+    {
+      "label": "Služby MSK (WFS)",
+      "expandedIcon": "pi pi-folder-open",
+      "collapsedIcon": "pi pi-folder",
+      "selectable": false,
+      "children": [
+        {
+          "label": "INSPIRE data o využití území",
+          "url" : "https://gis.msk.cz/arcgis/services/public/ups_ZUR_INSPIRE/MapServer/WFSServer",
+          "type": "wfs",
+          "collapsedIcon": "pi pi-globe",
+          "leaf": true
+        }
+      ]
+    },
+    {
+      "label": "Služby ČUZK (WMS)",
+      "expandedIcon": "pi pi-folder-open",
+      "collapsedIcon": "pi pi-folder",
+      "selectable": false,
+      "children": [
+        {
+          "label": "Ortofoto (WMS)",
+          "url" : "https://geoportal.cuzk.cz/WMS_ORTOFOTO_PUB/WMService.aspx",
+          "type": "wms",
+          "collapsedIcon": "pi pi-globe",
+          "leaf": true
+        },
+        {
+          "label": "Katastrální mapy",
+          "url" : "https://services.cuzk.cz/wms/local-KM-wms.asp",
+          "type": "wms",
+          "collapsedIcon": "pi pi-globe",
+          "leaf": true
+        },
+        {
+          "label": "ZABAGED (barevný)",
+          "url" : "https://ags.cuzk.cz/arcgis/services/ZABAGED/MapServer/WmsServer",
+          "type": "wms",
+          "collapsedIcon": "pi pi-globe",
+          "leaf": true
+        },
+        {
+          "label": "Digitální model reliéfu České republiky 4. generace",
+          "url" : "https://ags.cuzk.cz/arcgis2/services/dmr4g/ImageServer/WMSServer",
+          "type": "wms",
+          "collapsedIcon": "pi pi-globe",
+          "leaf": true
+        }
+      ]
+    },
+    {
+      "label": "Služby ČUZK (WMTS)",
+      "expandedIcon": "pi pi-folder-open",
+      "collapsedIcon": "pi pi-folder",
+      "selectable": false,
+      "children": [
+        {
+          "label": "Katastrální mapa",
+          "url" : "https://services.cuzk.cz/wmts/local-KM-wmts-jtsk.asp",
+          "type": "wmts",
+          "collapsedIcon": "pi pi-globe",
+          "leaf": true
+        },
+        {
+          "label": "Základní mapa",
+          "url" : "https://geoportal.cuzk.cz/WMTS_ZM/WMTService.aspx",
+          "type": "wmts",
+          "collapsedIcon": "pi pi-globe",
+          "leaf": true
+        },
+        {
+          "label": "Ortofoto ČR",
+          "url" : "https://geoportal.cuzk.cz/WMTS_ORTOFOTO/WMTService.aspx",
+          "type": "wmts",
+          "collapsedIcon": "pi pi-globe",
+          "leaf": true
+        }
+      ]
+    }
+  ]
+}

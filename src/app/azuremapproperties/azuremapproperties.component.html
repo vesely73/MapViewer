@@ -1,0 +1,15 @@
+<p-dialog header="Azure Map" [modal]="true" [(visible)]="visible" (onHide)="hide()" [style]="{width:'400px',height:'300px'}">
+    <div class="flex flex-column gap-2">
+        <div class="flex flex-column">
+            <label for="subscriptionKey" i18n>Subscription key:</label>
+            <input id="subscriptionKey" type="text" pInputText [(ngModel)]="subscriptionKey" class="w-full"/>
+        </div>
+        <div class="flex flex-column">
+            <label for="tileset" i18n>Tileset:</label>
+            <p-select id="tileset" [options]="tilesets" [(ngModel)]="tileset" optionLabel="label" optionValue="value" class="w-full" appendTo="body"/>
+        </div>
+    </div>
+    <ng-template pTemplate="footer">
+        <p-button icon="pi pi-check" (click)="onOKClicked()" label="OK" styleClass="p-button-text"></p-button>
+    </ng-template>
+</p-dialog>

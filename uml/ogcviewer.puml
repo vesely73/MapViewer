@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+
+package "Components" {
+  [app] <-- [Map]
+  [Map] <-- [AddService]
+  OpenLayers_Map <.. [app] : Create
+  OpenLayers_Map <.. [Map] : Use
+}
+
+package "Services" {
+  [AddService] --> [Downloader]
+  [CapabilitiesParser] <-- [Map]
+  [Downloader] ..> HTTP
+  [CapabilitiesParser] ..> OpenLayers
+}
+
+
+@enduml

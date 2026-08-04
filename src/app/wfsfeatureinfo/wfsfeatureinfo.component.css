@@ -1,0 +1,9 @@
+
+th:first-child {
+    width: 30%
+}
+
+td:first-child {
+    background-color: lightgray;
+    font-weight: bold
+}

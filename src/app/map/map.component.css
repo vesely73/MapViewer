@@ -1,0 +1,24 @@
+
+.maptools {
+    position:absolute;
+    top:40px;
+    left:60px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px
+}
+
+.maptools div {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.maptools div span {
+    font-size: x-small;
+    text-align: center;
+    text-shadow: black 0 0 3px;
+    color: white;
+    margin-top: 3px
+}
+

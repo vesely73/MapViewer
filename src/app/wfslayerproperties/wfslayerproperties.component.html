@@ -1,0 +1,15 @@
+<p-dialog header="WFS layer" [modal]="true" [(visible)]="visible" (onHide)="hide()" [style]="{width:'300px',height:'450px'}">
+    <div class="p-fluid">
+        <div class="field">
+            <label for="cpFill" i18n>Fill color:</label><br>
+            <p-colorPicker id="cpFill" [(ngModel)]="colorFill" format="rgb" [inline]="true"/>
+        </div>
+        <div class="field">
+            <label for="sAlpha" i18n>Alpha: {{alpha}}</label>
+            <p-slider id="sAlpha" [(ngModel)]="alpha" [step]="0.1" [min]="0" [max]="1"></p-slider>
+        </div>
+    </div>
+    <ng-template pTemplate="footer">
+        <p-button icon="pi pi-check" (click)="onOKClicked()" label="OK" styleClass="p-button-text"></p-button>
+    </ng-template>
+</p-dialog>

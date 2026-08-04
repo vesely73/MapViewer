@@ -1,0 +1,17 @@
+<p-card *ngFor="let feature of features" [style]="{'width': '100%'}">
+    <p-table [value]="feature.rows" styleClass="p-datatable-sm">
+        <ng-template pTemplate="header">
+            <tr style="height: 10pt">
+                <th style=""></th>
+                <th></th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-row>
+            <tr>
+                <td>{{row.key}}</td>
+                <td>{{row.value}}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</p-card>
+

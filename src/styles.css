@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "primeicons/primeicons.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    margin: 0;
+}
+
+h2 {
+    font-size: medium;
+}
+
+.radioButtonContainer {
+    display: flex;
+    align-items: center;
+}

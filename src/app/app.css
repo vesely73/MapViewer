@@ -1,0 +1,63 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background: linear-gradient(-45deg, #ee5252, #dc427e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+header .title {
+    font-size: 15px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.map-container {
+    flex-grow: 1;
+    width: 100vh;
+}
+
+footer {
+    background-color: hsl(286, 73%, 62%);
+    color: white;
+    font-size: small;
+}
+
+a.link {
+    font-size: smaller;
+    cursor:pointer;
+    color:blue;
+    text-decoration:underline;
+}
+
+@media only screen and (max-width: 400px) {
+    header .title {
+        font-size: 10px;
+        margin-left: 20px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+}
