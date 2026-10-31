@@ -10,11 +10,14 @@
       "sourceRoot": "src",
       "prefix": "app",
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": {
+          "code": "en-US",
+          "subPath": ""
+        },
         "locales": {
           "cs": {
             "translation": "src/locale/messages.cs-CZ.xlf",
-            "subPath": ""
+            "subPath": "cs"
           }
         }
       },
@@ -63,9 +66,7 @@
               "sourceMap": true
             },
             "github-pages": {
-              "localize": [
-                "cs"
-              ],
+              "localize": true,
               "i18nMissingTranslation": "error"
             }
           },

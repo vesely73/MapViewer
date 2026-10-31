@@ -126,6 +126,30 @@
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8998179362936748717" datatype="html">
+        <source>OK</source>
+        <target>OK</target>
+      </trans-unit>
+      <trans-unit id="4134204135360818165" datatype="html">
+        <source>Azure Map</source>
+        <target>Azure Mapy</target>
+      </trans-unit>
+      <trans-unit id="7912920668395935396" datatype="html">
+        <source>WFS Feature Info</source>
+        <target>Informace o prvcích WFS</target>
+      </trans-unit>
+      <trans-unit id="5100059231675962892" datatype="html">
+        <source>WMS Feature Info</source>
+        <target>Informace o prvcích WMS</target>
+      </trans-unit>
+      <trans-unit id="7821171104170687731" datatype="html">
+        <source>WFS layer</source>
+        <target>Vrstva WFS</target>
+      </trans-unit>
+      <trans-unit id="807069401434538029" datatype="html">
+        <source>Open info in new window</source>
+        <target>Otevřít informace v novém okně</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

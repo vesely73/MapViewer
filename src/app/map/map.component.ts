@@ -344,7 +344,7 @@ export class MapComponent implements OnInit {
 		if (features.length>0) {
 			this.dialogService.open(WfsfeatureinfoComponent, {
 				data:features,
-				header: 'WFS Feature Info',
+				header: $localize`WFS Feature Info`,
 				width: '70%',
 				height: "80vh",
 				contentStyle: {"overflow": "auto"},
@@ -355,7 +355,7 @@ export class MapComponent implements OnInit {
 		else if (gfi.length>0){
 			this.dialogService.open(WmsfeatureinfoComponent, {
 				data:gfi,
-				header: 'WMS Feature Info',
+				header: $localize`WMS Feature Info`,
 				width: '70%',
 				height: "90vh",
 				contentStyle: {"overflow": "auto"},

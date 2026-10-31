@@ -57,8 +57,9 @@ Build artifacts are stored in the `dist/` directory.
 
 ### GitHub Pages
 
-The Czech translation is deployed automatically to GitHub Pages when changes are pushed
-to the `master` branch. Enable **Settings > Pages > Build and deployment > Source:
+English and Czech versions are deployed automatically to GitHub Pages when changes are pushed
+to the `master` branch. English is the default; visitors whose browser language is Czech are
+redirected to the Czech version. Enable **Settings > Pages > Build and deployment > Source:
 GitHub Actions** in the repository once. The published application is available at:
 
 `https://vesely73.github.io/MapViewer/`

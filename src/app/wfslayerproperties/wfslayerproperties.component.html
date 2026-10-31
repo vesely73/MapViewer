@@ -1,4 +1,4 @@
-<p-dialog header="WFS layer" [modal]="true" [(visible)]="visible" (onHide)="hide()" [style]="{width:'300px',height:'450px'}">
+<p-dialog i18n-header header="WFS layer" [modal]="true" [(visible)]="visible" (onHide)="hide()" [style]="{width:'300px',height:'450px'}">
     <div class="p-fluid">
         <div class="field">
             <label for="cpFill" i18n>Fill color:</label><br>
@@ -10,6 +10,6 @@
         </div>
     </div>
     <ng-template pTemplate="footer">
-        <p-button icon="pi pi-check" (click)="onOKClicked()" label="OK" styleClass="p-button-text"></p-button>
+        <p-button icon="pi pi-check" (click)="onOKClicked()" i18n-label label="OK" styleClass="p-button-text"></p-button>
     </ng-template>
 </p-dialog>

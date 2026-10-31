@@ -1,4 +1,4 @@
-<p-dialog header="Azure Map" [modal]="true" [(visible)]="visible" (onHide)="hide()" [style]="{width:'400px',height:'300px'}">
+<p-dialog i18n-header header="Azure Map" [modal]="true" [(visible)]="visible" (onHide)="hide()" [style]="{width:'400px',height:'300px'}">
     <div class="flex flex-column gap-2">
         <div class="flex flex-column">
             <label for="subscriptionKey" i18n>Subscription key:</label>
@@ -10,6 +10,6 @@
         </div>
     </div>
     <ng-template pTemplate="footer">
-        <p-button icon="pi pi-check" (click)="onOKClicked()" label="OK" styleClass="p-button-text"></p-button>
+        <p-button icon="pi pi-check" (click)="onOKClicked()" i18n-label label="OK" styleClass="p-button-text"></p-button>
     </ng-template>
 </p-dialog>

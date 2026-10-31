@@ -7,7 +7,7 @@
     <p-tabpanels [style]="{'background':'lightgray'}">
         @for (tab of gfis; track tab.html) {
             <p-tabpanel [value]="tab.title" class="flex-column">
-              <a [href]="tab.url" [target]="tab.title" class="font-bold">Open info in new window</a>
+              <a [href]="tab.url" [target]="tab.title" class="font-bold" i18n>Open info in new window</a>
               <div class="getFeatureInfoHtml" [innerHTML]="tab.html"></div>
             </p-tabpanel>
         }
