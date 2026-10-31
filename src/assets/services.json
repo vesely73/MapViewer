@@ -169,28 +169,28 @@
       "children": [
         {
           "label": "Ortofoto (WMS)",
-          "url" : "https://geoportal.cuzk.cz/WMS_ORTOFOTO_PUB/WMService.aspx",
+          "url" : "https://ags.cuzk.gov.cz/arcgis1/services/ORTOFOTO/MapServer/WMSServer",
           "type": "wms",
           "collapsedIcon": "pi pi-globe",
           "leaf": true
         },
         {
           "label": "Katastrální mapy",
-          "url" : "https://services.cuzk.cz/wms/local-KM-wms.asp",
+          "url" : "https://services.cuzk.gov.cz/wms/local-KM-wms.asp",
           "type": "wms",
           "collapsedIcon": "pi pi-globe",
           "leaf": true
         },
         {
           "label": "ZABAGED (barevný)",
-          "url" : "https://ags.cuzk.cz/arcgis/services/ZABAGED/MapServer/WmsServer",
+          "url" : "https://ags.cuzk.gov.cz/arcgis/services/ZABAGED_POLOHOPIS/MapServer/WmsServer",
           "type": "wms",
           "collapsedIcon": "pi pi-globe",
           "leaf": true
         },
         {
           "label": "Digitální model reliéfu České republiky 4. generace",
-          "url" : "https://ags.cuzk.cz/arcgis2/services/dmr4g/ImageServer/WMSServer",
+          "url" : "https://ags.cuzk.gov.cz/arcgis2/services/dmr4g/ImageServer/WMSServer",
           "type": "wms",
           "collapsedIcon": "pi pi-globe",
           "leaf": true
