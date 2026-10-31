@@ -55,6 +55,20 @@ ng build
 
 Build artifacts are stored in the `dist/` directory.
 
+### GitHub Pages
+
+The Czech translation is deployed automatically to GitHub Pages when changes are pushed
+to the `master` branch. Enable **Settings > Pages > Build and deployment > Source:
+GitHub Actions** in the repository once. The published application is available at:
+
+`https://vesely73.github.io/MapViewer/`
+
+To create the same localized build locally:
+
+```bash
+npm run build:github-pages
+```
+
 ## Configuring Pre-configured Services
 
 MapViewer can be configured with pre-defined OGC services that users can quickly add. This is done through the `src/assets/services.json` file.

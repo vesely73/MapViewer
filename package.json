@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:github-pages": "ng build --configuration production,github-pages --base-href /MapViewer/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

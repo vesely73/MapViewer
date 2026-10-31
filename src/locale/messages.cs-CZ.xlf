@@ -94,6 +94,38 @@
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7056759216951981523" datatype="html">
+        <source>Subscription key:</source>
+        <target>Předplatný klíč:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/azuremapproperties/azuremapproperties.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7165806025360593502" datatype="html">
+        <source>Tileset:</source>
+        <target>Dlaždicová sada:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/azuremapproperties/azuremapproperties.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1337395653170810599" datatype="html">
+        <source>Info<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>(GetFeatureInfo)</source>
+        <target>Info<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>(GetFeatureInfo)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/map/map.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5653711855333988661" datatype="html">
+        <source>Zoom to current<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>position</source>
+        <target>Přiblížit na aktuální<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>polohu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/map/map.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
